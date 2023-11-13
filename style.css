@@ -289,6 +289,13 @@ body{
    .title{
     font-size: 18px;
   }
+  .notFound{
+    grid-template-columns: 1fr !important;
+    color: var(--tenne-tawny);
+    font-size: 1rem;
+    font-weight: 600;
+    width: 100%;
+  }
   .meal-details{
     width: 400px;
   }
