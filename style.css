@@ -277,7 +277,19 @@ body{
     width: 700px;
   }
 }
-
+@media screen and (max-width: 768px){
+  #meal{
+    display: grid;
+    grid-template-columns: 250px;
+    gap: 2rem;
+  }
+  .meal-item{
+    margin-left: -80px;
+  }
+  .meal-details{
+    width: 400px;
+  }
+}
 @media screen and (min-width: 992px){
   #meal{
     grid-template-columns: repeat(3, 1fr);
