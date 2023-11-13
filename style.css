@@ -286,6 +286,9 @@ body{
   .meal-item{
     margin-left: -80px;
   }
+   .title{
+    font-size: 18px;
+  }
   .meal-details{
     width: 400px;
   }
